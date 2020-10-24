@@ -1,0 +1,30 @@
+.nav-header{
+    .navbar-brand{
+        font-size: 2rem;
+        color: #191616;
+        font-weight: bold;
+    }
+    .form-inline{
+        input{
+            border-radius: 0;
+        }
+        .btn{
+             background-color: #585454;
+                color: #ffff;
+                border-radius: 0;
+                font-weight: 500;
+                padding: 0.4rem 1.5rem;
+        }
+    }
+}
+.navigation{
+        background-color: #191616;
+
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: #fff;
+            }
+        }
+    }
+}
