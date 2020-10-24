@@ -30,7 +30,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">{{'NAVBAR.HOME' | translate}}</a>
+        <a class="nav-link" routerLink="/products">{{'NAVBAR.HOME' | translate}}</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">{{'NAVBAR.PRODUCT' | translate}}</a>
@@ -62,13 +62,13 @@
 <router-outlet></router-outlet>
 <footer>
     <div class="container">
-    <div class="footer-content d-flex justify-content-between">
+    <div class="footer_content d-flex justify-content-between">
         <div class="copyright">
             <p>{{ 'FOOTER.COPYRIGHT' | translate}}</p>
         </div>
         <div class="author">
-            <p>{{'FOOTER.AUTHOR' | translate}}</p>
-        </div>
+            <p>{{ 'FOOTER.AUTHOR' | translate}}</p>
         </div>
     </div>
+</div>
 </footer>
