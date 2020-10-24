@@ -1,25 +1,28 @@
 <div class="container">
+     <!-- <select class="form-control" (change)="translate.use(langselect.value)" #langselect>
+       <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{ lang }}</option>
+     </select> -->
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-div">
             <h2 class="my-3">Navigation</h2>
             <ul class="side-navbar">
-                <li>Home</li>
-                <li>Product</li>
-                <li>Company</li>
-                <li>Contact</li>
+                <li>{{'NAVBAR.HOME' | translate}}</li>
+                <li>{{'NAVBAR.PRODUCT' | translate}}</li>
+                <li>{{'NAVBAR.COMPANY' | translate}}</li>
+                <li>{{'NAVBAR.CONTACT' | translate}}</li>
 
             </ul>
 
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 right-div">
-              <h2 class="my-3">Content</h2>
+              <h2 class="my-3">{{'CONTENT.TITLE' | translate}}</h2>
             <div class="row">
               
                 <div *ngFor="let prod of productList" class="col-lg-4 mb-3">
                     <img class="img-fluid" src="assets/product-img.png">
                     <div class="product-content">
                         <p>{{prod.Name}} / {{prod.price}}</p>
-                        <button type="button" class="btn cart-btn">Add to Cart</button>
+                        <button type="button" class="btn cart-btn">{{'CONTENT.ADD_TO_CART' | translate}}</button>
                     </div>
 
                 </div>

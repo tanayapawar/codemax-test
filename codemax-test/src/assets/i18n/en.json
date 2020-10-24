@@ -1,0 +1,36 @@
+{
+"HEADER": {
+  "Search_placeholder":"Search Product",
+  "button_text":"Search"
+},
+
+"NAVBAR":{
+    "TITLE": "Navigation",
+    "HOME": "Home",
+    "PRODUCT":"Product",
+    "COMPANY": "Company",
+    "CONTACT":"Contact"
+},
+"CONTENT":{
+    "TITLE":"Content",
+    "ADD_TO_CART":"Add to Cart"
+},
+"CONTACT": {
+  "TITLE": "Contact Us",
+  "How_to_find_us": "How to find us",
+ "Address": "Address",
+ "Phone": "Phone",
+ "Email": "Email ",
+ "get_in_touch": "Get in touch",
+ "form_name":"Name",
+ "form_name_ex": "John Doe",
+ "form_email":"Email",
+ "form_email_ex": "abc@gmail.com",
+ "form_message":"Message",
+ "form_btn":"Submit"
+},
+"FOOTER":{
+    "COPYRIGHT": "©2013 Responsee, All Rights Reserved",
+    "AUTHOR":"Design and coding by Responsee"
+}
+}

@@ -1,0 +1,44 @@
+.contact-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.contact-details{
+    h3{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .details{
+        padding: 1rem 5rem 0.2rem 0;
+        h4{
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #7d7575;
+        }
+    }
+}
+.contact-form{
+     h3 {
+       font-size: 1.3rem;
+       font-weight: 700;
+     }
+     form{
+         margin-top: 24px;
+     }
+    .form-group{
+        label{
+             font-size: 1.1rem;
+             font-weight: bold;
+             color: #7d7575;
+        }
+        input, textarea{
+            border-radius: 0;
+        }
+        .btn{
+            background-color: #585454;
+            color: #ffff;
+            border-radius: 0;
+            font-weight: 500;
+            padding: 0.4rem 1.5rem;
+        }
+    }
+}

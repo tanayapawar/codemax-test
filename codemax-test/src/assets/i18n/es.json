@@ -1,0 +1,36 @@
+{
+  "HEADER": {
+     "Search_placeholder": "Buscar producto",
+    "button_text": "Buscar"
+  },
+  "NAVBAR": {
+    "TITLE":"",
+    "HOME": "Casa",
+    "PRODUCT": "Navegación",
+    "COMPANY": "Empresa",
+    "CONTACT": "Contacto"
+  },
+  "CONTENT": {
+    "TITLE": "Contenido",
+     "ADD_TO_CART": "Añadir al carrito"
+  },
+  "CONTACT":{
+    "TITLE": "Contacta con nosotras",
+    "How_to_find_us":"Como encontrarnos",
+     "Address": "Habla a",
+     "Phone": "Teléfono",
+     "Email": "Eorreo electrónico",
+     "get_in_touch": "Ponerse en contacto",
+     "form_name": "Nombre",
+     "form_name_ex":"John Doe",
+     "form_email": "Correo electrónico",
+      "form_email_ex": "abc@gmail.com",
+     "form_message": "Mensaje",
+     "form_btn": "Enviar"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "©2013 Responsee, Todos los derechos reservados",
+    "AUTHOR": "Diseño y codificación por Responsee"
+  }
+
+}

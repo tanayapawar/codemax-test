@@ -1,13 +1,22 @@
 
-
+<div class="container">
+    <div class="row justify-content-end  mt-3">
+        <div class="col-lg-2">
+            
+        </div>
+    </div>
+</div>
 <nav class="navbar nav-header">
     <div class="container">
   <a class="navbar-brand" href="#">Logooo</a>
+ 
    <form class="form-inline ">
-     <input class="form-control" type="search" placeholder="Search Product" aria-label="Search">
-     <button class="btn my-2 my-sm-0" type="submit">Search</button>
+     <input class="form-control" type="search" placeholder="{{ 'HEADER.Search_placeholder' | translate}}" aria-label="Search">
+     <button class="btn my-2 my-sm-0" type="submit">{{ 'HEADER.button_text' | translate}}</button>
    </form>
-
+ <select class="form-control col-lg-1" (change)="translate.use(langselect.value)" #langselect>
+   <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{ lang }}</option>
+ </select>
   </div>
 </nav>
 
@@ -21,17 +30,17 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">{{'NAVBAR.HOME' | translate}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Product</a>
+        <a class="nav-link" href="#">{{'NAVBAR.PRODUCT' | translate}}</a>
       </li>
    
        <li class="nav-item">
-         <a class="nav-link" href="#">Company</a>
+         <a class="nav-link" routerLink="/company">{{'NAVBAR.COMPANY' | translate}}</a>
        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" routerLink="/contact">{{'NAVBAR.CONTACT' | translate}}</a>
         </li>
     
     </ul>
@@ -49,5 +58,17 @@
   </div>
   </div>
 </nav>
-<app-product-list></app-product-list>
+
 <router-outlet></router-outlet>
+<footer>
+    <div class="container">
+    <div class="footer-content d-flex justify-content-between">
+        <div class="copyright">
+            <p>{{ 'FOOTER.COPYRIGHT' | translate}}</p>
+        </div>
+        <div class="author">
+            <p>{{'FOOTER.AUTHOR' | translate}}</p>
+        </div>
+        </div>
+    </div>
+</footer>
