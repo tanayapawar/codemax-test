@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-div">
+            <h2 class="my-3">Navigation</h2>
+            <ul class="side-navbar">
+                <li>Home</li>
+                <li>Product</li>
+                <li>Company</li>
+                <li>Contact</li>
+
+            </ul>
+
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 right-div">
+              <h2 class="my-3">Content</h2>
+            <div class="row">
+              
+                <div *ngFor="let prod of productList" class="col-lg-4 mb-3">
+                    <img class="img-fluid" src="assets/product-img.png">
+                    <div class="product-content">
+                        <p>{{prod.Name}} / {{prod.price}}</p>
+                        <button type="button" class="btn cart-btn">Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

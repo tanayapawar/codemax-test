@@ -24,6 +24,18 @@ export const PRODUCTS: ProductList[] = [
     {
         Name: 'product 6',
         price: 20
+    },
+    {
+        Name: 'product 7',
+        price: 20
+    },
+    {
+        Name: 'product 8',
+        price: 20
+    },
+    {
+        Name: 'product 9',
+        price: 20
     }
 
 ];
