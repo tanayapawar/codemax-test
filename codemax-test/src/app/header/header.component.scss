@@ -22,11 +22,18 @@
 
 .navigation {
   background-color: #191616;
-
   .navbar-nav {
     .nav-item {
+      margin: 0 15px 0 0;
       .nav-link {
         color: #fff;
+        span{
+          background-color: #afacac;
+          padding: 0px 6px 0px 6px;
+          border-radius: 50%;
+          font-size: 13px;
+          font-weight: 500;
+        }
       }
     }
   }

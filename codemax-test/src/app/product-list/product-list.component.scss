@@ -7,6 +7,17 @@
         padding:0.5rem 0 0.5rem;
         li{
             padding:0.8rem;
+            display: flex;
+            justify-content: space-between;
+            span{
+                background-color:#afacac;
+                padding: 3px 6px 3px 6px;
+                border-radius: 50%;
+                font-size: 13px;
+                color: #fff;
+                font-weight: 500;
+
+            }
         }
     }
 }
