@@ -32,6 +32,15 @@
   "ITEMS":"items",
   "PRICE": "$"
 },
+"COMPANY": {
+  "TITLE":"Our Company",
+  "WHAT_WE_DO":"What We Do",
+  "OUR_TEAM":"Our Team",
+  "FOUNDER":"Founder",
+  "CEO":"CEO",
+  "HR_DIRECTOR":"HR Director",
+  "EMAIL":"Email:abc@yahoo.com"
+},
 "FOOTER":{
     "COPYRIGHT": "©2013 Responsee, All Rights Reserved",
     "AUTHOR":"Design and coding by Responsee"

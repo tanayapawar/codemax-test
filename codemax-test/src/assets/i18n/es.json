@@ -32,6 +32,15 @@
     "ITEMS": "artículos",
     "PRICE": "pt"
   },
+  "COMPANY": {
+    "TITLE": "Nuestro Empresa",
+    "WHAT_WE_DO": "Que hacemos",
+    "OUR_TEAM": "Nuestro equipo",
+     "FOUNDER": "Fundadora",
+     "CEO": "CEO",
+     "HR_DIRECTOR": "Directora de recursos humanos",
+     "EMAIL": "Correo electrónico: abc@yahoo.com"
+  },
   "FOOTER": {
     "COPYRIGHT": "©2013 Responsee, Todos los derechos reservados",
     "AUTHOR": "Diseño y codificación por Responsee"

@@ -1,0 +1,54 @@
+
+.company-header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.what-we-do{
+  margin-top:2rem;
+  .icon{
+            text-align: center;
+          font-size: 3rem;
+          color: #585454;
+          margin-bottom: 10px;
+  }
+  .content{
+border-left: 1px solid grey;
+padding: 10px 70px 10px 17px;
+    
+    .card-title {
+      font-weight: 700;
+      font-size: 1.4rem;
+    }
+
+    .card-text {
+      font-weight: 500;
+      font-size: 1rem;
+    }
+  }
+
+}
+.our-team{
+ .card{
+       padding: 2rem 2rem;
+       border: none;
+       text-align: center;
+       box-shadow: 0 6px 16px rgba(0, 0, 0, .1);
+       height: 100%;
+       .btn{
+         width: 100%;
+         background-color: #585454;
+         color: #ffff;
+         border-radius: 0;
+         font-weight: 50
+       }
+        .card-title {
+          font-weight: 700;
+          font-size: 1.4rem;
+        }
+
+        .card-text {
+          font-weight: 500;
+          font-size: 1rem;
+        }
+ }
+}
