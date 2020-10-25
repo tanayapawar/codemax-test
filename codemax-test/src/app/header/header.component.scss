@@ -1,15 +1,20 @@
 .nav-header {
   .navbar-brand {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #191616;
     font-weight: bold;
+    .bolder-o{
+      font-weight: 700;
+    }
+    .bold-o{
+      font-weight: initial;
+    }
   }
 
   .form-inline {
     input {
       border-radius: 0;
     }
-
     .btn {
       background-color: #585454;
       color: #ffff;
@@ -19,7 +24,10 @@
     }
   }
 }
-
+.navbar-toggler-icon {
+  color: #fff;
+  font-weight: 700;
+}
 .navigation {
   background-color: #191616;
   .navbar-nav {
@@ -34,7 +42,15 @@
           font-size: 13px;
           font-weight: 500;
         }
+        
       }
+    }
+    .fa-facebook {
+      font-size: 17px;
+      color: #000000;
+      background-color: #e2dede;
+      padding: 6px 9px 6px 9px;
+      border-radius: 50%;
     }
   }
 }

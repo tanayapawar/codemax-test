@@ -19,10 +19,12 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit(): void {
     this.productList = this.dataService.getProductList();
+    
   }
 
    addToCart(prod) {
    this.price = prod.price;
+   this.count++;
      this.service.getItems(this.price);
 
   }
