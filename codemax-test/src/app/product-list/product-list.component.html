@@ -18,8 +18,9 @@
                 <div *ngFor="let prod of productList" class="col-lg-4 mb-3">
                     <img class="img-fluid" src="assets/product-img.png">
                     <div class="product-content">
-                        <p>{{prod.Name}} / {{prod.price}}</p>
-                        <button type="button" class="btn cart-btn">{{'CONTENT.ADD_TO_CART' | translate}}</button>
+                        <p>{{prod.Name}} : Lorem ipsum / {{'CART.PRICE' | translate}} {{prod.price}}</p>
+                        <button type="button" class="btn cart-btn" (click)="addToCart(prod)">{{'CONTENT.ADD_TO_CART' | translate}}</button>
+                  
                     </div>
 
                 </div>

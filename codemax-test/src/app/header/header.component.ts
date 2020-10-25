@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { CartServiceService } from '../product-list/cart-service.service';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +8,13 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor(public translate: TranslateService) {
+  cartEmpty: boolean =false;
+  countItems :{
+    count:0,
+    prize:0
+  };
+  constructor(public translate: TranslateService,
+    private cartService: CartServiceService) {
     translate.addLangs(['en', 'es']);
     translate.setDefaultLang('en');
     const browserLang = translate.getBrowserLang();
@@ -16,7 +22,14 @@ export class HeaderComponent implements OnInit {
   }
 
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.cartService.$cartItems
+      .subscribe((data) => {
+        this.cartEmpty= true;
+        this.countItems = data;
+        console.log('hi', data);
+      })
   }
+   
 
 }

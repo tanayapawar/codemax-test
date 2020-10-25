@@ -1,6 +1,6 @@
 {
 "HEADER": {
-  "Search_placeholder":"Search Product",
+  "Search_placeholder":"Search ",
   "button_text":"Search"
 },
 "NAVBAR":{
@@ -27,6 +27,10 @@
  "form_email_ex": "abc@gmail.com",
  "form_message":"Message",
  "form_btn":"Submit"
+},
+"CART":{
+  "ITEMS":"items",
+  "PRICE": "$"
 },
 "FOOTER":{
     "COPYRIGHT": "©2013 Responsee, All Rights Reserved",
